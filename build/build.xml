@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="compile debug" name="Compile HumboldtJSEmpty project">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="compile release">
+    	<mkdir dir="../bin-release"/>
+    	<java jar="humboldtjs.jar" fork="true">
+    		<arg value="-basedir"/>
+    		<arg value="../src"/>
+    		<arg value="-optimize"/>
+    		<arg value="-L"/>
+    		<arg value="../lib/HumboldtJSLibrary.swc"/>
+    		<arg value="-o"/>
+    		<arg value="../bin-release"/>
+    		<arg value="HumboldtJSEmpty.as"/>
+    	</java>
+    </target>
+    <target name="compile debug">
+    	<mkdir dir="../bin-release"/>
+    	<java jar="humboldtjs.jar" fork="true">
+    		<arg value="-basedir"/>
+    		<arg value="../src"/>
+    		<arg value="-debug"/>
+    		<arg value="-L"/>
+    		<arg value="../lib/HumboldtJSLibrary.swc"/>
+    		<arg value="-o"/>
+    		<arg value="../bin-debug"/>
+    		<arg value="HumboldtJSEmpty.as"/>
+    	</java>
+    </target>
+</project>
