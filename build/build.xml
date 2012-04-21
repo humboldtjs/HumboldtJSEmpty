@@ -16,7 +16,7 @@
     	</java>
     </target>
     <target name="compile debug">
-    	<mkdir dir="../bin-release"/>
+    	<mkdir dir="../bin-debug"/>
     	<java jar="humboldtjs.jar" fork="true">
     		<arg value="-basedir"/>
     		<arg value="../src"/>
