@@ -10,6 +10,8 @@
     		<arg value="-optimize"/>
     		<arg value="-L"/>
     		<arg value="../lib/HumboldtJSLibrary.swc"/>
+    		<arg value="-L"/>
+    		<arg value="../lib/PureMVC.swc"/>
     		<arg value="-o"/>
     		<arg value="../bin-release"/>
     		<arg value="HumboldtJSEmpty.as"/>
@@ -23,6 +25,8 @@
     		<arg value="-debug"/>
     		<arg value="-L"/>
     		<arg value="../lib/HumboldtJSLibrary.swc"/>
+    		<arg value="-L"/>
+    		<arg value="../lib/PureMVC.swc"/>
     		<arg value="-o"/>
     		<arg value="../bin-debug"/>
     		<arg value="HumboldtJSEmpty.as"/>
