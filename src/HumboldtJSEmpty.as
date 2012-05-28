@@ -26,6 +26,10 @@ package
 			// now we're free to do whatever we like
 			
 			trace("The application is running");
+			
+//			var theArray:Array = new Array();
+//			theArray.push("Test");
+//			trace(theArray[0] as String);
 		}
 	}
 }
